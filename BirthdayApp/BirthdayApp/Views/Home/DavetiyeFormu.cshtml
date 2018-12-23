@@ -1,0 +1,33 @@
+﻿@model BirthdayApp.Models.DavetiyeModel
+
+@{
+    ViewBag.Title = "DavetiyeFormu";
+}
+
+<div class="panel panel-success">
+    <div class="panel-heading"><h4>Sende Davetlisin!</h4></div>
+    <div class="panel-body">
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                <label>Ad :</label>
+                @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Ad)
+            </div>
+            <div class="form-group">
+                <label>E-Posta :</label>
+                @Html.TextBoxFor(x => x.Eposta, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Eposta)
+            </div>
+            <div class="form-group">
+                <label>Katılacak mısın?</label>
+                @Html.DropDownListFor(x => x.KatilmaDurumu, new[] { new SelectListItem() { Text = "Evet, geliyorum.", Value = bool.TrueString }, new SelectListItem() { Text = "Hayır, malesef gelemeyeceğim.", Value = bool.FalseString } }, "Geliyor musun?", new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.KatilmaDurumu)
+            </div>
+            <div class="text-center">
+                <input class="btn btn-success" type="submit" value="Gönder" />
+            </div>
+        }
+    </div>
+</div>
+

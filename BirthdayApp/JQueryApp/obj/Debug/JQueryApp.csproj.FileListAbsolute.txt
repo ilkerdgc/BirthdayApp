@@ -1,0 +1,9 @@
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\bin\JQueryApp.dll.config
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\bin\JQueryApp.dll
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\bin\JQueryApp.pdb
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\obj\Debug\JQueryApp.csprojResolveAssemblyReference.cache
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\obj\Debug\JQueryApp.csproj.CoreCompileInputs.cache
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\obj\Debug\JQueryApp.dll
+C:\Users\ilker\Desktop\ProjeDeneme\BirthdayApp\JQueryApp\obj\Debug\JQueryApp.pdb
